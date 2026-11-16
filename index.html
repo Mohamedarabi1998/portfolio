@@ -3,145 +3,218 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Potfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Mohamed Arabi Nasser | Front-end Developer</title>
+    <meta name="description" content="Portfolio of Mohamed Arabi Nasser, a front-end developer building modern, responsive and user-friendly web interfaces.">
+    <meta name="theme-color" content="#2D3748">
+    <meta property="og:title" content="Mohamed Arabi Nasser | Front-end Developer">
+    <meta property="og:description" content="Modern, responsive web interfaces that combine beauty and performance.">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232D3748'/%3E%3Ctext x='32' y='42' font-family='Arial,sans-serif' font-size='28' font-weight='700' text-anchor='middle' fill='%2327BCD1'%3EMN%3C/text%3E%3C/svg%3E">
 
+    <script>document.documentElement.classList.add('js');</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <div class="logo">Mohamed Arabi Nasser</div>
-        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
-        <ul class="nav-links" id="nav-links">
-            <li><a href="home">Home</a></li>
-            <li><a href="About">About</a></li>
-            <li><a href="Projects">Projects</a></li>
-            <li><a href="Contact">Contact</a></li>
-            <a href="#" class="contact-btn">Lets Contact</a>
-        </ul>
-    </nav>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-    <section class="hero">
-        <div class="hero-content">
-            <div class="hero-text">
-                <h1>
-                    Hello I am <span class="highlight">Mohamed Arabi Nasser</span><br>
-                    <span class="teal">Front-end Developer</span>
-                </h1>
-                <p>I design modern and responsive web interfaces that combine beauty and performance.</p>
-                <div class="hero-buttons">
-                    <a href="#" class="btn-primary">Explore My Work</a>
-                    <a href="#" class="btn-outline">Get In Touch</a>
-                </div>
-            </div>
-            <div class="hero-image">
-                <img src="profile.jpg" alt="picture">
-            </div>
-        </div>
-        <div class="decor decor-square"></div>
-        <div class="decor decor-triangle"></div>
-    </section>
-    <section class="about" id="about">
-        <div class="container">
-            <h2 class="section-title">
-                <span class="icon">💡</span> Who am I?
-            </h2>
-    
-            <div class="about-content">
-                <div class="about-text">
-                    <p>
-                        I am a front-end developer who is passionate about creating modern and responsive websites. I focus on turning ideas
-                        into attractive and user-friendly interfaces, using the latest technologies such as
-                        <strong>HTML</strong>، <strong>CSS</strong>، <strong>JavaScript</strong>.
-                    </p>
-                    <p>I always aim to deliver a distinctive user experience that combines simplicity and elegance, with attention to detail
-                    that brings the design to life.
-                    </p>
-                </div>
-                <div class="about-image">
-                    <img src="coding.png" alt="image">
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="skills">
-        <h2>⚙️ Skills & Techs</h2>
-        <div class="skill-cards">
-            <div class="skill-card">HTML</div>
-            <div class="skill-card">CSS</div>
-            <div class="skill-card">JavaScript</div>
-            <div class="skill-card">Svelte</div>
-            <div class="skill-card">MySQL</div>
-        </div>
-    </section>
-    <section class="projects">
-        <h2>🚀 My Notable Projects</h2>
-    
-        <div class="projects-grid">
-            <div class="project-card">
-                <img src="project1.jpg" alt="Project 1">
-                <h3>Landing Page</h3>
-                <p>An interactive landing page with a modern design using HTML, CSS, and JavaScript.</p>
-                <div class="tags">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JavaScript</span>
-                </div>
-                <div class="buttons">
-                    <a href="#" class="live-demo">Live Demo</a>
-                    <a href="#" class="github">GitHub</a>
-                </div>
-            </div>
-    
-            <div class="project-card">
-                <img src="project2.jpg" alt="Project 2">
-                <h3>Svelte Portfolio</h3>
-                <p>Personal website built with SvelteKit and easy to customise.</p>
-                <div class="tags">
-                    <span>Svelte</span>
-                    <span>JavaScript</span>
-                    <span>CSS</span>
-                </div>
-                <div class="buttons">
-                    <a href="#" class="live-demo">Live Demo</a>
-                    <a href="#" class="github">GitHub</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="contact" id="contact">
-        <h2>✉️ Contact me</h2>
-        <p>I would be happy to hear from you for any enquiry or potential co-operation.</p>
-    
-        <div class="contact-info">
-            <a href="mailto:mohammad9171998@gmail.com">
-                <i class="fa-solid fa-envelope"></i> mohammad9171998@gmail.com
-            </a>
-            <a href="https://www.linkedin.com/in/mohamed-arabi-nasser" target="_blank">
-                <i class="fa-brands fa-linkedin"></i> LinkedIn
-            </a>
-            <a href="https://github.com/mohamed-nasser" target="_blank">
-                <i class="fa-brands fa-github"></i> GitHub
-            </a>
-        </div>
-    
-        <form class="contact-form">
-            <input type="text" placeholder="Name" required>
-            <input type="email" placeholder="Email" required>
-            <textarea rows="5" placeholder="Type your message here..." required></textarea>
-            <button type="submit">Send</button>
-        </form>
-    </section>
-<footer class="footer">
-    <p>© 2025 Mohamed Nasser. All rights reserved.</p>
+    <!-- ===== NAVBAR ===== -->
+    <header class="site-header" id="site-header">
+        <nav class="nav" aria-label="Main navigation">
+            <a href="#home" class="logo">Mohamed Arabi Nasser</a>
 
-    <div class="social-icons">
-        <a href="https://github.com/mohamed-nasser" target="_blank"><i class="fa-brands fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/mohamed-arabi-nasser" target="_blank"><i
-                class="fa-brands fa-linkedin"></i></a>
-        <a href="mailto:mohammad9171998@gmail.com"><i class="fa-solid fa-envelope"></i></a>
-    </div>
-</footer>
-<script src="script.js"></script>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
+                <span class="bars" aria-hidden="true"></span>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="contact-btn">Let's Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <!-- ===== HERO ===== -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <div class="hero-text reveal">
+                    <span class="eyebrow">Front-end Developer</span>
+                    <h1>
+                        Hello, I am <span class="highlight">Mohamed Arabi Nasser</span>
+                    </h1>
+                    <p>I design modern and responsive web interfaces that combine beauty and performance.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn-primary">Explore My Work</a>
+                        <a href="#contact" class="btn-outline">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image reveal">
+                    <div class="photo-frame">
+                        <img src="profile.jpg" alt="Portrait of Mohamed Arabi Nasser" width="1024" height="1024">
+                    </div>
+                </div>
+            </div>
+            <div class="decor decor-square" aria-hidden="true"></div>
+            <div class="decor decor-triangle" aria-hidden="true"></div>
+        </section>
+
+        <!-- ===== ABOUT ===== -->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="eyebrow">About</span>
+                    <h2 class="section-title">Who am I?</h2>
+                </div>
+
+                <div class="about-content">
+                    <div class="about-text reveal">
+                        <p>
+                            I am a front-end developer who is passionate about creating modern and responsive websites.
+                            I focus on turning ideas into attractive and user-friendly interfaces, using the latest
+                            technologies such as <strong>HTML</strong>, <strong>CSS</strong> and <strong>JavaScript</strong>.
+                        </p>
+                        <p>
+                            I always aim to deliver a distinctive user experience that combines simplicity and elegance,
+                            with attention to detail that brings the design to life.
+                        </p>
+                    </div>
+                    <div class="about-image reveal">
+                        <img src="coding.png" alt="Illustration of a computer showing code" width="512" height="512" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SKILLS ===== -->
+        <section class="skills" id="skills">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="eyebrow">Skills</span>
+                    <h2 class="section-title">Skills &amp; Techs</h2>
+                </div>
+
+                <ul class="skill-cards">
+                    <li class="skill-card reveal"><i class="fa-brands fa-html5" aria-hidden="true"></i><span>HTML</span></li>
+                    <li class="skill-card reveal"><i class="fa-brands fa-css3-alt" aria-hidden="true"></i><span>CSS</span></li>
+                    <li class="skill-card reveal"><i class="fa-brands fa-js" aria-hidden="true"></i><span>JavaScript</span></li>
+                    <li class="skill-card reveal"><i class="fa-solid fa-code" aria-hidden="true"></i><span>Svelte</span></li>
+                    <li class="skill-card reveal"><i class="fa-solid fa-database" aria-hidden="true"></i><span>MySQL</span></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ===== PROJECTS ===== -->
+        <section class="projects" id="projects">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="eyebrow">Portfolio</span>
+                    <h2 class="section-title">My Notable Projects</h2>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project-card reveal">
+                        <div class="project-thumb">
+                            <img src="project1.jpg" alt="Preview of the Landing Page project" width="800" height="466" loading="lazy">
+                        </div>
+                        <div class="project-body">
+                            <h3>Landing Page</h3>
+                            <p>An interactive landing page with a modern design using HTML, CSS, and JavaScript.</p>
+                            <div class="tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="buttons">
+                                <!-- TODO: replace # with the real project links -->
+                                <a href="#" class="live-demo"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Live Demo</a>
+                                <a href="#" class="github"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-thumb">
+                            <img src="project2.jpg" alt="Preview of the Svelte Portfolio project" width="1200" height="946" loading="lazy">
+                        </div>
+                        <div class="project-body">
+                            <h3>Svelte Portfolio</h3>
+                            <p>Personal website built with SvelteKit and easy to customise.</p>
+                            <div class="tags">
+                                <span>Svelte</span>
+                                <span>JavaScript</span>
+                                <span>CSS</span>
+                            </div>
+                            <div class="buttons">
+                                <!-- TODO: replace # with the real project links -->
+                                <a href="#" class="live-demo"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Live Demo</a>
+                                <a href="#" class="github"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CONTACT ===== -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="eyebrow">Contact</span>
+                    <h2 class="section-title">Contact me</h2>
+                    <p class="section-sub">I would be happy to hear from you for any enquiry or potential co-operation.</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info reveal">
+                        <a href="mailto:mohammad9171998@gmail.com">
+                            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                            <span>mohammad9171998@gmail.com</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/mohamed-arabi-nasser" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/mohamed-nasser" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-github" aria-hidden="true"></i>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+
+                    <form class="contact-form reveal" id="contact-form">
+                        <label class="sr-only" for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Name" autocomplete="name" required>
+
+                        <label class="sr-only" for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Email" autocomplete="email" required>
+
+                        <label class="sr-only" for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Type your message here..." required></textarea>
+
+                        <button type="submit">Send <i class="fa-solid fa-paper-plane" aria-hidden="true"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <p>&copy; <span id="year">2025</span> Mohamed Arabi Nasser. All rights reserved.</p>
+
+        <div class="social-icons">
+            <a href="https://github.com/mohamed-nasser" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/mohamed-arabi-nasser" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+            <a href="mailto:mohammad9171998@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
